@@ -5,7 +5,6 @@ data class CrtItem(
     val title: String,
     val imageUrl: String,
     val price: Double,
-    val mrp: Double,
     val inStock: Boolean = true,
     val isPrime: Boolean = true,
     val qty: Int = 1
